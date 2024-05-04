@@ -8,15 +8,28 @@ body {
     background-color: #84d154;
     height: 2.5cm;
     width: auto;
+    padding-top: 0.7cm;
 
   }
 
-  .navbar a.active {
+  .titulocentral a.link {
     text-decoration: none;
-    text-align: center;
     font-size: 0.7cm;
-    padding-left: 50%;
-    color: #7a6150;
+    color: #513d2f;
     font-weight: bold;
+    text-align: center;
+    padding-left: 50%;
+
+  }
+
+  .titulocentral p.subtitulo {
+    text-decoration: none;
+    font-size: 0.5cm;
+    padding-top: 0cm;
+    color: #513d2f;
+    font-weight: bold;
+    margin-top: 0cm;
+    padding-left: 49%;
+
 
   }

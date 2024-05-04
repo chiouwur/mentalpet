@@ -1,62 +1,87 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0cm;
   }
 
   .navbar {
     background-color: #84d154;
-    height: 2.5cm;
+    height: 1.5cm;
     width: 100%;
     padding-top: 0.3cm;
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-items: center; 
   }
 
 
 .titulocentral {
     padding-left: 50%;
     margin-right: 12cm;
-
+    align-items: center;
 }
 
-  .titulocentral a.link {
+.titulocentral a.hogar {
     text-decoration: none;
     font-size: 0.7cm;
     color: #513d2f;
     font-weight: bold;
     text-align: center;
 
-  }
+}
 
-  .titulocentral p.subtitulo {
+.titulocentral p.subtitulo {
     text-decoration: none;
     font-size: 0.4cm;
     padding-top: 0cm;
     color: #513d2f;
     font-weight: bold;
     margin-top: 0cm;
-  }
+}
 
-  .iniciosesion {
+.iniciosesion {
     display: flex;
     flex-direction: row;
-  }
+    padding-top: 0cm;
+    align-items: right;
+}
 
-  .iniciosesion a.inicio {
+.iniciosesion a.inicio {
     text-decoration: none;
     font-size: 0.4cm;
     color: #513d2f;
     font-weight: bold;
     margin-right: 1cm;
 
-  }
+}
 
-  .iniciosesion a.registro {
+.iniciosesion a.registro {
     text-decoration: none;
     font-size: 0.4cm;
     color: #513d2f;
     font-weight: bold;
 
+}
+
+.navbar2 {
+    background-color: #f5b134;
+    height: 1cm;
+    width: 100%;
+    padding-top: 0.3cm;
+    align-items: center; 
+    
   }
 
+.enlaces_navegacion {
+    display: flex; 
+    flex-direction: row;
+}
+
+.enlaces_navegacion a.link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 23%;
+    color: #513d2f;
+
+    
+    
+}

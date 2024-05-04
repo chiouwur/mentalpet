@@ -7,10 +7,18 @@ body {
   .navbar {
     background-color: #84d154;
     height: 2.5cm;
-    width: auto;
-    padding-top: 0.7cm;
-
+    width: 100%;
+    padding-top: 0.3cm;
+    display: flex;
+    align-items: center;
   }
+
+
+.titulocentral {
+    padding-left: 50%;
+    margin-right: 12cm;
+
+}
 
   .titulocentral a.link {
     text-decoration: none;
@@ -18,18 +26,37 @@ body {
     color: #513d2f;
     font-weight: bold;
     text-align: center;
-    padding-left: 50%;
 
   }
 
   .titulocentral p.subtitulo {
     text-decoration: none;
-    font-size: 0.5cm;
+    font-size: 0.4cm;
     padding-top: 0cm;
     color: #513d2f;
     font-weight: bold;
     margin-top: 0cm;
-    padding-left: 49%;
+  }
 
+  .iniciosesion {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .iniciosesion a.inicio {
+    text-decoration: none;
+    font-size: 0.4cm;
+    color: #513d2f;
+    font-weight: bold;
+    margin-right: 1cm;
 
   }
+
+  .iniciosesion a.registro {
+    text-decoration: none;
+    font-size: 0.4cm;
+    color: #513d2f;
+    font-weight: bold;
+
+  }
+

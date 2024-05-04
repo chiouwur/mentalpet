@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .navbar {
+    background-color: #84d154;
+    height: 2.5cm;
+    width: auto;
+
+  }
+
+  .navbar a.active {
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.7cm;
+    padding-left: 50%;
+    color: #7a6150;
+    font-weight: bold;
+
+  }
